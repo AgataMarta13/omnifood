@@ -1,3 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial';
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    }
+    
 body {
-    background-color: black;
+    background-color: #fff;
+    color: rgb(29, 28, 28);
+}
+.row{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.699), rgba(0, 0, 0, 0.699)), url(/css/img/hero.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    
+}
+
+h1 {
+    margin: 0;
+    color: #fff;
+    font-size: 240%;
+    font-weight: 100;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+}
+
+.herobox {
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.btn:link, 
+.btn:visited {
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.btn-full:link,
+.btn-full:visited {
+    background-color: #e67e22;
+    border: 1px solid #e67e22;
+    color: #fff;
+}
+.btn-ghost:link,
+.btn-ghost:visited {
+    color: #e67e22;
+    border: 1px solid #e67e22;
+}
+
+.btn:hover,
+.btn:active {
+    color: #b05d14;
 }
